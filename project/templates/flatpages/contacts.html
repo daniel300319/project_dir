@@ -1,0 +1,21 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <h3>Наши контакты:</h3>
+    <div>
+    <style>
+    p {
+    font-size: 40px;
+    font-style: big;
+    font-family: fantasy;
+    }
+    </style>
+    <p>Наша звездочка: +79257024794</p>
+    </div>
+{% endblock content %}
